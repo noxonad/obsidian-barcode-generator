@@ -1,6 +1,6 @@
 {
-	"name": "obsidian-barcode-generator",
-	"version": "1.0.0",
+	"name": "barcode-generator",
+	"version": "1.0.1",
 	"description": "Generates a barcode of your choice from your code block.",
 	"main": "src/main.js",
 	"scripts": {
@@ -10,7 +10,8 @@
 	},
 	"keywords": [
 		"barcode",
-		"obsidian"
+		"obsidian",
+		"jsbarcode"
 	],
 	"author": "noxoand",
 	"license": "LGPL-3.0-only",

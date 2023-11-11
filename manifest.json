@@ -1,9 +1,9 @@
 {
 	"id": "barcode-generator",
 	"name": "Barcode Generator",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.9.0",
-	"description": "A barcode generator for obsidian.",
+	"description": "Generates customizable barcodes into your notes.",
 	"author": "noxonad",
 	"authorUrl": "https://github.com/noxonad",
 	"isDesktopOnly": false

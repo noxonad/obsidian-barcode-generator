@@ -219,8 +219,6 @@ export class BarcodeSettingsTab extends PluginSettingTab {
 
 		containerEl.empty();
 
-		containerEl.createEl("h1", { text: "Barcode Settings" });
-
 		// Function not working properly as you can't unregister
 		// the markdown codeblock processor
 		// Thus the default codeblock name will be static and match "barcode"
@@ -230,7 +228,7 @@ export class BarcodeSettingsTab extends PluginSettingTab {
 		this.set_background(containerEl);
 		this.set_line(containerEl);
 		
-		containerEl.createEl("h1", { text: "Text and Font" });
+		containerEl.createEl("h1", { text: "Text and font" });
 
 		this.set_text_display(containerEl);
 		this.set_font(containerEl);
@@ -238,7 +236,7 @@ export class BarcodeSettingsTab extends PluginSettingTab {
 		this.set_text_align(containerEl);
 		this.set_text_position(containerEl);
 
-		containerEl.createEl("h1", { text: "Size and Margins" });
+		containerEl.createEl("h1", { text: "Size and margins" });
 
 		this.set_width(containerEl);
 		this.set_height(containerEl);

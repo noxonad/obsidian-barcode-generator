@@ -1,7 +1,7 @@
 {
 	"name": "barcode-generator",
-	"version": "1.0.1",
-	"description": "Generates a barcode of your choice from your code block.",
+	"version": "1.0.2",
+	"description": "Generates customizable barcodes into your notes.",
 	"main": "src/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",

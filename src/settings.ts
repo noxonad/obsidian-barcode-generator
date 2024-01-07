@@ -1,6 +1,6 @@
 import { App, PluginSettingTab, Setting } from "obsidian";
-import Barcode from "main";
 import { BARCODE_SETTINGS_NAME } from "processor/tags";
+import Barcode from "main";
 
 export interface BarcodeSettings {
 	barcode_name: string;

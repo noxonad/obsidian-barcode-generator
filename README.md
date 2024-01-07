@@ -43,7 +43,17 @@ content
 ```
 ````
 
-Note: after changing the options, the barcodes on the page won't be refreshed.
+If you want to make a barcode different from the sandard settings, this can be done using `barcode-custom`:
+````markdown
+```barcode-custom
+lineColor: #fff
+height: 10
+format: pharmacode
+1341
+```
+````
+
+> Note: after changing the options, the barcodes on the page won't be refreshed.
 
 ### Barcodes
 
